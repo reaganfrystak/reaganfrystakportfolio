@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "Brain Break THC Branding",
     "yearsCreated": 2025,
     "medium": "black and white",
@@ -11,7 +11,7 @@
     "videoURL": "url to videos"
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "UMN Career Services Administration",
     "yearsCreated": 2024,
     "medium": "Adobe Illustrator",
@@ -20,7 +20,7 @@
     "classOrganization": "UMN Career Services"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Coast 2 Curb",
     "yearsCreated": 2025,
     "medium": "Adobe Illustrator, Photoshop, and InDesign",

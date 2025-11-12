@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Brain Break THC Branding",
+    "yearsCreated": 2025,
+    "medium": "black and white",
+    "description": "Fictional THC Brand catered to college-aged students.",
+    "classOrganization": "GDES 3352: Packaging and Display",
+    "thumbnail": "path/to/thumbnail",
+    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
+    "videoURL": "url to videos"
+  },
+  {
+    "id": 2,
+    "title": "UMN Career Services Administration",
+    "yearsCreated": 2024,
+    "medium": "Adobe Illustrator",
+    "type": "social media graphics",
+    "description": "Career Backpack",
+    "classOrganization": "UMN Career Services"
+  },
+  {
+    "id": 3,
+    "title": "Coast 2 Curb",
+    "yearsCreated": 2025,
+    "medium": "Adobe Illustrator, Photoshop, and InDesign",
+    "type": "Branding & Branding Guidelines",
+    "description": "Brand guidelines final project",
+    "classOrganization": "GDES ___ - Identity & Symbols"
+  }
+]

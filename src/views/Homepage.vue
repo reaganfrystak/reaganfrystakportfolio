@@ -2,15 +2,12 @@
 import portfolioData from '@/data/portfolio.json'
 import HeroContainer from '@/components/portfolio/HeroContainer.vue'
 
-const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[2]]
+const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[2], portfolioData[3], portfolioData[4]]
 </script>
 
 <template>
   <p>This is responsive one</p>
   <hero-container :is-responsive="true" :items="featuredItems"/>
-
-  <p>Non Responsive</p>
-  <hero-container :is-responsive="false" :items="portfolioData"/>
 </template>
 
 <style scoped>

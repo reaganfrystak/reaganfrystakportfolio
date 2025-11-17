@@ -27,5 +27,24 @@
     "type": "Branding & Branding Guidelines",
     "description": "Brand guidelines final project",
     "classOrganization": "GDES ___ - Identity & Symbols"
+  },
+  {
+    "id": 3,
+    "title": "Minnesota State Fair",
+    "yearsCreated": 2025,
+    "medium": "Adobe Illustrator, Photoshop, and InDesign",
+    "type": "Branding & Branding Guidelines",
+    "description": "Brand guidelines final project",
+    "classOrganization": "Backpack Communications"
+  },
+  {
+    "id": 4,
+    "title": "Hubbard School of Journalism",
+    "yearsCreated": 2025,
+    "medium": "Adobe Illustrator and Photoshop",
+    "type": "Branding & Branding Guidelines",
+    "thumbnail": "item4.png",
+    "description": "Brand guidelines final project",
+    "classOrganization": "Backpack Communications"
   }
 ]

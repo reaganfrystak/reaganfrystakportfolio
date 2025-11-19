@@ -12,7 +12,7 @@ import NavBar from '@/components/NavBar.vue'
       <router-view/>
     </section>
 
-    <footer>Made by me</footer>
+    <footer>Made by Reagan Frystak 2025</footer>
   </section>
 </template>
 
@@ -27,6 +27,8 @@ import NavBar from '@/components/NavBar.vue'
     }
 
     content {
+      display: flex;
+      flex-direction: space-between;
       background-color: white;
       color: black;
       padding: 10px;

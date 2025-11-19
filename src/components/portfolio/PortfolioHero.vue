@@ -7,13 +7,13 @@ const props = defineProps({
   title: {
     type: String,
     required: true,
-  }
+  },
 })
 </script>
 
 <template>
   <div class="hero" :style="`background-image: url(./src/assets/${props.thumbnail})`">
-    <div class="opaque-footer" v-text="props.title"/>
+    <div class="opaque-footer" v-text="props.title" />
   </div>
 </template>
 
@@ -21,9 +21,9 @@ const props = defineProps({
 .hero {
   border: 1px solid black;
   border-radius: 15px;
-  min-height: 150px;
+  min-height: 250px;
   min-width: 300px;
-  max-width: 100%;
+  max-width: 80%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ const props = defineProps({
     text-transform: uppercase;
     opacity: 0.7;
     border-radius: 15px;
-    font-family: arial, sans-serif;
+    font-family: Lato;
   }
 }
 </style>

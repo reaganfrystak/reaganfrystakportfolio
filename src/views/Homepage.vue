@@ -1,23 +1,33 @@
 <script setup>
-import portfolioData from '@/data/portfolio.json'
-import HeroContainer from '@/components/portfolio/HeroContainer.vue'
-
-const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[2], portfolioData[3], portfolioData[4]]
 </script>
 
 <template>
-  <p>This is responsive one</p>
-  <hero-container :is-responsive="true" :items="featuredItems"/>
+  <div class="homecontainer"></div>
+  <div class="title">Reagan Frystak</div>
+  <div class="homesubtitle">Welcome to my portfolio. My design work consists primarily of branding design and UI/UX.</div>
+
 </template>
 
 <style scoped>
-div.all-items {
-  display: flex;
-  gap: 1rem;
+div.homecontainer{
+  margin: 30px;
 }
 
-div.item {
-  border: 1px solid black;
-  min-width: 200px;
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 40px;
+  font-family: Boldonse;
+}
+
+div.homesubtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 16px;
+
 }
 </style>
+
+/*ASK ABOUT HAMBURGER MENU*/

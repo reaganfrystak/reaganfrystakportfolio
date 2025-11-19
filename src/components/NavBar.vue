@@ -6,9 +6,10 @@
     <div class="logo"></div>
 
     <div class="links">
-      <router-link to="{name: 'home'}">Home</router-link>
-      <router-link to="{name: 'about-me'}">About Me</router-link>
-      <router-link to="{name: 'contact-me'}">Contact Me</router-link>
+      <router-link :to="{name: 'home'}">Home</router-link>
+      <router-link :to="{name: 'work'}">Work</router-link>
+      <router-link :to="{name: 'about-me'}">About Me</router-link>
+      <router-link :to="{name: 'contact-me'}">Contact Me</router-link>
     </div>
   </div>
 </template>
@@ -17,20 +18,27 @@
 
 div.container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 20px;
   align-items: center;
 
   div.logo {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: purple;
     border-radius: 100px;
+    display: flex;
+    justify-content: left;
   }
 
   div.links {
     display: flex;
     flex-direction: column;
+    justify-content: right;
+    gap: 10px;
+    font-size: 16px;
+    font-family: Lato;
 
     a {
       color: purple;

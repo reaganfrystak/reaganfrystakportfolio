@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="hero" :style="`background-image: url(./src/assets/${props.thumbnail})`">
+  <div class="hero" :style="`background-image: url(../src/assets/${props.thumbnail})`">
     <div class="opaque-footer" v-text="props.title" />
   </div>
 </template>

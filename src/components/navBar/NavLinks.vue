@@ -15,9 +15,8 @@ div.links {
   display: flex;
   flex-direction: column;
   justify-content: right;
-  gap: 10px;
-  font-size: 16px;
-  font-family: Lato;
+  font-size: 15px;
+  font-family: Boldonse;
 
   a {
     color: #FEDEBB;

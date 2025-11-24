@@ -15,12 +15,13 @@ const props = defineProps({
 
 <template>
   <div v-if="items.length > 0" class="all-items" :class="{ 'non-responsive': !isResponsive }">
-    <portfolio-hero
+    <router-link
       v-for="item in props.items"
       :key="item.id"
-      :thumbnail="item.thumbnail"
-      :title="item.title"
-    />
+      :to="{ name: 'portfolio-item-details', params: { portfolioId: item.id } }"
+    >
+      <portfolio-hero :thumbnail="item.thumbnail" :title="item.title" />
+    </router-link>
   </div>
 
   <p v-else>You got to give me something to work with</p>

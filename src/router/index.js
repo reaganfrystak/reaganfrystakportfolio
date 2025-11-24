@@ -27,12 +27,12 @@ const router = createRouter({
       path: '/portfolio',
       children: [
         {
-          path: '/work-menu',
+          path: 'work-menu',
           name: 'work',
           component: WorkMenu,
         },
         {
-          path: '/portfolioId',
+          path: 'details/:portfolioId',
           name: 'portfolio-item-details',
           component: PortfolioItemDetails,
         }

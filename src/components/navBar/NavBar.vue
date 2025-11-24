@@ -45,14 +45,14 @@ div.container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
   }
 
   div.top-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 
     .nav-links-desktop {

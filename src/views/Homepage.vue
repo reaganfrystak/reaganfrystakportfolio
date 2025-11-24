@@ -10,7 +10,7 @@
 
 <style scoped>
 div.homecontainer{
-  margin: 30px;
+  margin: 50px;
 }
 
 .title {
@@ -26,8 +26,8 @@ div.homesubtitle {
   flex-direction: column;
   justify-content: left;
   font-size: 16px;
+  transform: translate(0px, 50px);
 
 }
 </style>
 
-/*ASK ABOUT HAMBURGER MENU*/

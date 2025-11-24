@@ -23,7 +23,6 @@ import NavBar from '@/components/navBar/NavBar.vue'
     gap: 10px;
     > * {
       border: 1px solid darkblue;
-
     }
 
     content {
@@ -34,10 +33,11 @@ import NavBar from '@/components/navBar/NavBar.vue'
       padding: 10px;
       border-radius: 10px;
     }
+  }
 
-    footer {
-      text-align: center;
-      padding: 10px;
-    }
+  footer {
+    text-align: center;
+    padding: 10px;
+    transform: translateY(200px);
   }
 </style>

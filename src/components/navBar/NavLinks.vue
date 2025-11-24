@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import MailIcon from '@/assets/svg/mail-icon.vue'
 </script>
 
 <template>
@@ -7,7 +6,7 @@ import MailIcon from '@/assets/svg/mail-icon.vue'
     <router-link :to="{name: 'home'}">Home</router-link>
     <router-link :to="{name: 'work'}">Work</router-link>
     <router-link :to="{name: 'about-me'}">About Me</router-link>
-    <router-link :to="{name: 'contact-me'}"><mail-icon/> Contact Me</router-link>
+    <router-link :to="{name: 'contact-me'}"> Contact Me</router-link>
   </div>
 </template>
 
@@ -21,19 +20,14 @@ div.links {
   font-family: Lato;
 
   a {
-    color: purple;
+    color: #FEDEBB;
     text-decoration: none;
     border: 1px white;
     padding: 5px;
 
-    svg {
-      height: 20px;
-      width: 20px;
-    }
-
     &:hover {
-      background-color: white;
-      color: black;
+      background-color: #FEDEBB;
+      color: #272963;
     }
   }
 

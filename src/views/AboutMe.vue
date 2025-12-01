@@ -1,7 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <template>
-  <h1>About Me</h1>
+  <div class="aboutcontainer"></div>
+  <div class="abouttitle">About Me</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+.aboutcontainer{
+  margin: 50px;
+}
+
+.abouttitle {
+  display: flex;
+  color: #FEDEBB;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 3rem;
+  font-family: Boldonse;
+}
+</style>

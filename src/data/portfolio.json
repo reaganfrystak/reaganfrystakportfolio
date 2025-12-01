@@ -5,7 +5,7 @@
     "yearsCreated": 2024,
     "medium": "Adobe Illustrator",
     "type": "social media graphics",
-    "thumbnail": "item4.png",
+    "thumbnail": "item1.png",
     "description": "Career Backpack",
     "classOrganization": "UMN Career Services"
   },
@@ -25,7 +25,7 @@
     "yearsCreated": 2025,
     "medium": "Adobe Illustrator and InDesign",
     "type": "Branding & Branding Guidelines",
-    "thumbnail": "item4.png",
+    "thumbnail": "item3.png",
     "description": "Brand guidelines final project",
     "classOrganization": "Backpack Communications"
   },
@@ -41,13 +41,13 @@
   },
   {
     "id": 5,
-    "title": "Minnesota State Fair",
+    "title": "Yallah: Morrocco Travel Magazine",
     "yearsCreated": 2025,
-    "medium": "Capcut and TikTok",
-    "type": "Branding & Branding Guidelines",
-    "thumbnail": "item4.png",
-    "description": "Brand guidelines final project",
-    "classOrganization": "Backpack Communications"
+    "medium": "Adobe Illustrator, Photoshop, and InDesign",
+    "type": "Brand Design",
+    "thumbnail": "item5.png",
+    "description": "Text and Image final project: 32+ page long travel design magazine",
+    "classOrganization": "Text and Image"
   },
   {
     "id": 6,
@@ -56,7 +56,7 @@
     "medium": "black and white",
     "description": "Fictional THC Brand catered to college-aged students.",
     "classOrganization": "GDES 3352: Packaging and Display",
-    "thumbnail": "item4.png",
+    "thumbnail": "item6.png",
     "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
     "videoURL": "url to videos"
   }

@@ -4,7 +4,7 @@
 <template>
   <div class="homecontainer"></div>
   <div class="title">Reagan Frystak</div>
-  <div class="homesubtitle">Welcome to my portfolio. My design work consists primarily of branding design and UI/UX.</div>
+  <div class="homesubtitle">Welcome to my portfolio. My design work consists primarily of branding design.</div>
   <div class="worksbutton">See My Work</div>
 
 </template>

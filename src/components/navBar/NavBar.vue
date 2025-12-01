@@ -15,15 +15,8 @@ const toggleMobileNav = () => {
 <template>
   <div class="container">
     <div class="top-nav">
-      <div class="logo"></div>
-      <div class="typograph">
-        <img
-          src="D:\Webstorm\portfolio_website\photos and media\typograph.png"
-          alt="typograph"
-          width="200"
-        />
+      <div class="logo">
       </div>
-
       <a href="javascript:void(0)" class="hamburger" @click="toggleMobileNav">
         <i class="fa fa-bars"></i>
       </a>
@@ -41,11 +34,10 @@ div.container {
 
   background-color: #121212;
 
-  .typograph {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
+  .logo {
+    width: 200px;
+    height: 100px;
+    background: url('D:\Webstorm\portfolio_website\photos and media\typograph.png') no-repeat center/contain;
   }
 
   div.top-nav {

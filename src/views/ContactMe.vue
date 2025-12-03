@@ -1,12 +1,49 @@
 <script setup lang="ts">
-import MailIcon from '@/assets/svg/mail-icon.vue'
 </script>
 
 <template>
-  <h1>Contact Me</h1>
-  <mail-icon/>
+  <div class="contacttitle">Contact Me</div>
+  <div class="contactsubtitle">Hit my line!</div>
+  <div class="contactcontainer"></div>
 </template>
 
 <style scoped>
+
+.contacttitle {
+  font-family: Boldonse;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.contactsubtitle {
+  font-family: "Lato Black";
+  font-size: 20px;
+  color: #F7BC21;
+
+}
+
+.contactcontainer {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+@media (max-width: 600px) {
+  .contacttitle {
+    display: flex;
+    justify-content: center;
+    font-family: Boldonse;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .contactsubtitle {
+    text-align: center;
+  }
+}
 
 </style>

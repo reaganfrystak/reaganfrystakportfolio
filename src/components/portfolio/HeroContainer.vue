@@ -14,17 +14,19 @@ const props = defineProps({
 </script>
 
 <template>
-  <div v-if="items.length > 0" class="all-items" :class="{ 'non-responsive': !isResponsive }">
-    <router-link
-      v-for="item in props.items"
-      :key="item.id"
-      :to="{ name: 'portfolio-item-details', params: { portfolioId: item.id } }"
-    >
-      <portfolio-hero :thumbnail="item.thumbnail" :title="item.title" />
-    </router-link>
+  <div class="all-items">
+    <div v-if="items.length > 0" class="all-items" :class="{ 'non-responsive': !isResponsive }">
+      <router-link
+          v-for="item in props.items"
+          :key="item.id"
+          :to="{ name: 'portfolio-item-details', params: { portfolioId: item.id } }"
+      >
+        <portfolio-hero :thumbnail="item.thumbnail" :title="item.title" />
+      </router-link>
+    </div>
+    <p v-else>You got to give me something to work with</p>
   </div>
 
-  <p v-else>You got to give me something to work with</p>
 </template>
 
 <style scoped>

@@ -11,28 +11,33 @@
 </template>
 
 <style scoped>
-div.links {
+.links {
   display: flex;
   flex-direction: column;
-  justify-content: right;
+  align-items: flex-start;
+  gap: 40px;
   font-size: 15px;
   font-family: Boldonse;
+}
 
-  a {
-    color: #FEDEBB;
-    text-decoration: none;
-    border: 1px white;
-    padding: 5px;
+.links a {
+  color: #FEDEBB;
+  text-decoration: none;
+  padding: 5px;
+}
 
-    &:hover {
-      background-color: #FEDEBB;
-      color: #272963;
-    }
-  }
+.links a:hover {
+  background-color: #FEDEBB;
+  color: #272963;
+}
 
-  @media (width > 600px) {
-    /*overrides flex-direction of column on div.links*/
-    flex-direction: row;
+
+@media (min-width > 600px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
   }
 }
 </style>

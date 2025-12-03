@@ -7,7 +7,8 @@
     "type": "social media graphics",
     "thumbnail": "item1.png",
     "description": "Career Backpack",
-    "classOrganization": "UMN Career Services"
+    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
+    "classOrganization": "UMN Career Services Administration"
   },
   {
     "id": 2,
@@ -17,6 +18,7 @@
     "type": "Branding & Branding Guidelines",
     "thumbnail": "item2.png",
     "description": "Brand guidelines final project",
+    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
     "classOrganization": "GDES ___ - Identity & Symbols"
   },
   {
@@ -27,6 +29,7 @@
     "type": "Branding & Branding Guidelines",
     "thumbnail": "item3.png",
     "description": "Brand guidelines final project",
+    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
     "classOrganization": "Backpack Communications"
   },
   {
@@ -37,6 +40,7 @@
     "type": "Branding & Branding Guidelines",
     "thumbnail": "item4.png",
     "description": "Brand guidelines final project",
+    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
     "classOrganization": "Backpack Communications"
   },
   {
@@ -47,6 +51,7 @@
     "type": "Brand Design",
     "thumbnail": "item5.png",
     "description": "Text and Image final project: 32+ page long travel design magazine",
+    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
     "classOrganization": "Text and Image"
   },
   {
@@ -58,6 +63,6 @@
     "classOrganization": "GDES 3352: Packaging and Display",
     "thumbnail": "item6.png",
     "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
-    "videoURL": "url to videos"
+    "URL": "url to videos"
   }
 ]

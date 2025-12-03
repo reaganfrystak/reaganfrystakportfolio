@@ -16,13 +16,19 @@ import NavBar from '@/components/navBar/NavBar.vue'
   </section>
 </template>
 
+<style>
+body {
+  margin: 0;
+}
+</style>
+
 <style scoped>
   section.container {
     display: flex;
     flex-direction: column;
     gap: 10px;
     > * {
-      border: 1px solid darkblue;
+      border: 1px solid yellow;
     }
 
     content {
@@ -36,8 +42,10 @@ import NavBar from '@/components/navBar/NavBar.vue'
   }
 
   footer {
+    margin-top: 10px;
     text-align: center;
     padding: 10px;
-    transform: translateY(200px);
+    color: #FEDEBB;
+    font-family: Lato;
   }
 </style>

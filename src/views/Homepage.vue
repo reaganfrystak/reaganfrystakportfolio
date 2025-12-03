@@ -2,49 +2,93 @@
 </script>
 
 <template>
-  <div class="homecontainer"></div>
   <div class="title">Reagan Frystak</div>
-  <div class="homesubtitle">Welcome to my portfolio. My design work consists primarily of branding design.</div>
-  <div class="worksbutton">See My Work</div>
+  <div class="designer">Graphic & UX/UI Design</div>
+  <div class="homesubtitle">Welcome to my portfolio! My design work is primarily focused on branding and ux/ui design. I’ve had the wonderful opportunity to clients across the Twin Cities that I’ve worked with, and I’ve been able to see how my work is displayed in the real and digital world! To check out some of the work I’ve done, click the button below!</div>
+  <button class="worksbutton">See My Work</button>
 
 </template>
 
 <style scoped>
-div.homecontainer{
-  margin: 50px;
-}
 
 .title {
-  display: flex;
+  display: inline-flex;
   color: #FEDEBB;
+  background-color: #C12026;
+  border-radius: 10px;
   flex-direction: column;
   justify-content: left;
-  font-size: 3rem;
+  font-size: 60px;
+  padding: 10px 60px 0 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
   font-family: Boldonse;
+}
+
+.designer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: #C12026;
+  font-family: "Lato Black";
+  color: #FEDEBB;
+  font-size: 20px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 10px;
 }
 
 div.homesubtitle {
   display: flex;
   color: white;
   font-family: Lato;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: left;
   font-size: 16px;
-  transform: translate(0px, 50px);
+  margin-top: 30px;
+  margin-right: 60px;
+  line-height: 2;
 }
 
 .worksbutton {
-  border: 1px solid black;
-  padding: 5px;
+  display: inline-block;
+  padding: 30px 70px;
   background-color: #C12026;
-  font-family: Lato;
   color: #FEDEBB;
+  border: 1px solid black;
   border-radius: 5px;
-  transform: translate(0px, 150px);
+  font-family: Lato;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
 
   &:hover {
     background-color: #FEDEBB;
     color: #C12026;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .worksbutton {
+    display: flex;
+    justify-content: center;
+    padding: 30px 70px;
+    background-color: #C12026;
+    color: #FEDEBB;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Lato;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+
+    &:hover {
+      background-color: #FEDEBB;
+      color: #C12026;
+    }
   }
 }
 </style>

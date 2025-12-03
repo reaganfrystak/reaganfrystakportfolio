@@ -13,6 +13,7 @@ const toggleMobileNav = () => {
 </script>
 
 <template>
+  <header class="site-header">
   <div class="container">
     <div class="top-nav">
       <div class="logo">
@@ -26,18 +27,19 @@ const toggleMobileNav = () => {
 
     <nav-links class="nav-links-mobile" />
   </div>
+  </header>
 </template>
 
 <style scoped>
 
 div.container {
-
   background-color: #121212;
+  width: 100%;
 
   .logo {
     width: 200px;
     height: 100px;
-    background: url('D:\Webstorm\portfolio_website\photos and media\typograph.png') no-repeat center/contain;
+    background: url('@/assets/typograph.png') no-repeat center/contain;
   }
 
   div.top-nav {
@@ -49,16 +51,27 @@ div.container {
 
     .nav-links-desktop {
       display: none;
+      gap: 50px;
+    }
+
+    .nav-links-mobile {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
     }
   }
 
-  @media screen and (width > 600px) {
+
+
+  @media (min-width: 600px) {
     .hamburger {
       display: none;
     }
 
     .nav-links-mobile {
       display: none !important;
+      justify-content: left;
+
     }
 
     .nav-links-desktop {

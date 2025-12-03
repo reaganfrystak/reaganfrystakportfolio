@@ -34,6 +34,7 @@
   font-family: "Lato Black";
   color: #FEDEBB;
   font-size: 20px;
+  margin-left: 20px;
   padding: 10px 30px 10px 10px;
   border-radius: 10px;
 }
@@ -45,8 +46,7 @@ div.homesubtitle {
   flex-direction: row;
   justify-content: left;
   font-size: 16px;
-  margin-top: 30px;
-  margin-right: 60px;
+  margin: 30px 60px 0 20px;
   line-height: 2;
 }
 
@@ -61,7 +61,7 @@ div.homesubtitle {
   font-size: 24px;
   cursor: pointer;
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 70px 0 20px;
 
   &:hover {
     background-color: #FEDEBB;
@@ -71,6 +71,31 @@ div.homesubtitle {
 
 
 @media (max-width: 600px) {
+
+  .title {
+    display: inline-flex;
+    color: #FEDEBB;
+    background-color: #C12026;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 30px 10px;
+    font-family: Boldonse;
+  }
+
+  div.homesubtitle {
+    display: flex;
+    color: white;
+    font-family: Lato;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+  }
+
   .worksbutton {
     display: flex;
     justify-content: center;

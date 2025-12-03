@@ -40,6 +40,12 @@ div.container {
     width: 200px;
     height: 100px;
     background: url('@/assets/typograph.png') no-repeat center/contain;
+    margin-left: 20px;
+  }
+
+  i {
+    color: white;
+    margin-right: 20px;
   }
 
   div.top-nav {

@@ -1,10 +1,7 @@
 <script setup>
-
-// ChatGPT helped me create the component so I can utilize it on different pages
-
 import { ref } from 'vue'
 
-const { images } = defineProps({
+const props = defineProps({
   images: {
     type: Array,
     required: true
@@ -34,10 +31,9 @@ const prevImage = () => {
 </script>
 
 <template>
-  <!-- Thumbnail Gallery -->
   <div class="gallery">
     <div
-      v-for="(img, index) in images"
+      v-for="(img, index) in props.images"
       :key="index"
       class="thumb"
       @click="openLightbox(index)"
@@ -46,11 +42,10 @@ const prevImage = () => {
     </div>
   </div>
 
-  <!-- Lightbox -->
   <div v-if="lightboxOpen" class="lightbox" @click.self="closeLightbox">
     <button class="close-btn" @click="closeLightbox">×</button>
     <button class="prev-btn" @click.stop="prevImage">‹</button>
-    <img :src="images[currentIndex]" class="lightbox-img" />
+    <img :src="props.images[currentIndex]" class="lightbox-img" alt="Lightbox view" />
     <button class="next-btn" @click.stop="nextImage">›</button>
   </div>
 </template>

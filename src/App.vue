@@ -42,7 +42,7 @@ body {
   }
 
   footer {
-    margin: 40px auto 10px auto;
+    margin: 10px auto 10px auto;
     text-align: center;
     padding: 10px;
     color: #FEDEBB;

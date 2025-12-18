@@ -124,16 +124,19 @@ div.homesubtitle {
     max-width: 100%;
   }
 
-  .title,
+  .title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .designer {
     margin-left: auto;
     margin-right: auto;
   }
 
   .carousel-container {
-    width: 100%;
-    max-width: 100%;
-    height: 400px;
+    width: 500px;
+    height: 500px;
   }
 
   .worksbutton {

@@ -1,4 +1,7 @@
 <script setup>
+
+//I had Claude help me code lightbox component so I could utilize it on my other pages
+
 import { ref } from 'vue'
 
 const props = defineProps({

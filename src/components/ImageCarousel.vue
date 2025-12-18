@@ -1,6 +1,6 @@
 <script setup>
 
-//image carousel made with Claude to be utilized on other webpages
+//image carousel made with Claude to be utilized on other webpages.
 
 import { ref, onMounted, onUnmounted } from 'vue'
 

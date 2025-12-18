@@ -1,92 +1,131 @@
 <script setup>
 import NavLinks from '@/components/navBar/NavLinks.vue'
+import { ref } from 'vue'
+
+const isMobileOpen = ref(false)
 
 const toggleMobileNav = () => {
-  const nav = document.querySelector('.nav-links-mobile')
-
-  if (nav.style.display === 'none') {
-    nav.style.display = 'block'
-  } else {
-    nav.style.display = 'none'
-  }
+  isMobileOpen.value = !isMobileOpen.value
 }
 </script>
 
 <template>
   <header class="site-header">
-  <div class="container">
-    <div class="top-nav">
-      <div class="logo">
+    <div class="container">
+      <div class="top-nav">
+        <div class="logo"></div>
+
+        <button class="hamburger" @click="toggleMobileNav">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <nav-links class="nav-links-desktop" />
       </div>
-      <a href="javascript:void(0)" class="hamburger" @click="toggleMobileNav">
-        <i class="fa fa-bars"></i>
-      </a>
 
-      <nav-links class="nav-links-desktop" />
+      <nav-links
+        v-if="isMobileOpen"
+        class="nav-links-mobile"
+      />
     </div>
-
-    <nav-links class="nav-links-mobile" />
-  </div>
   </header>
 </template>
 
 <style scoped>
-
-div.container {
+.container {
   background-color: #121212;
   width: 100%;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  background: url('@/assets/typograph.png') no-repeat center/contain;
+  margin-left: 20px;
+}
+
+i {
+  color: white;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+
+.nav-links-desktop {
+  display: none;
+}
+
+.nav-links-desktop ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links-desktop li {
+  text-align: right;
+}
+
+.nav-links-mobile {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  background-color: #121212;
+  padding: 20px;
+  gap: 16px;
+  z-index: 10;
+}
+
+.nav-links-mobile ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links-mobile li {
+  text-align: right;
+}
+
+@media (min-width: 600px) {
 
   .logo {
     width: 200px;
     height: 100px;
     background: url('@/assets/typograph.png') no-repeat center/contain;
-    margin-left: 20px;
+    justify-content: center;
   }
 
-  i {
-    color: white;
-    margin-right: 20px;
+  .hamburger {
+    display: none;
   }
 
-  div.top-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 30px;
-    align-items: center;
-
-    .nav-links-desktop {
-      display: none;
-      gap: 50px;
-    }
-
-    .nav-links-mobile {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-  }
-
-
-
-  @media (min-width: 600px) {
-    .hamburger {
-      display: none;
-    }
-
-    .nav-links-mobile {
-      display: none !important;
-      justify-content: left;
-
-    }
-
-    .nav-links-desktop {
-      display: block !important;
-    }
+  .nav-links-desktop {
+    display: block !important;
   }
 
   .nav-links-mobile {
-    display: none;
+    display: none !important;
   }
 }
 </style>

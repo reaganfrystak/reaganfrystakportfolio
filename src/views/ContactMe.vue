@@ -3,7 +3,7 @@
 
 <template>
   <div class="contacttitle">Contact Me</div>
-  <div class="contactsubtitle">Hit my line!</div>
+  <div class="contactsubtitle">Let's Talk!</div>
   <div class="contactcontainer"></div>
 </template>
 

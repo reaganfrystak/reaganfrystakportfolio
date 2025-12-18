@@ -39,13 +39,13 @@ const itemData = portfolioData.filter(
 
   h2 {
     font-family: Lato;
-    font-size: 1rem;
+    font-size: 2 rem;
     color: white;
   }
 
   h3 {
     font-family: Lato;
-    font-size: 1rem;
+    font-size: 1 rem;
     color: white;
   }
 
@@ -76,7 +76,7 @@ const itemData = portfolioData.filter(
     display: flex;
     justify-content: center;
     font-family: Lato;
-    font-size: 1.5rem;
+    font-size: 2 rem;
     color: #FEDEBB;
     text-align: center;
   }

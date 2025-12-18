@@ -1,16 +1,29 @@
 <script setup>
+  import LightboxGallery from '@/components/LightboxGallery.vue'
+
+  import home1 from '@/assets/home1.png'
+  import home2 from '@/assets/home2.png'
+
+  const homeImages = [home1, home2]
 </script>
 
 <template>
-  <div class="title">Reagan Frystak</div>
-  <div class="designer">Graphic & UX/UI Design</div>
-  <div class="homesubtitle">Welcome to my portfolio! My design work is primarily focused on branding and ux/ui design. I’ve had the wonderful opportunity to clients across the Twin Cities that I’ve worked with, and I’ve been able to see how my work is displayed in the real and digital world! To check out some of the work I’ve done, click the button below!</div>
-  <button class="worksbutton">See My Work</button>
+    <div class="hero">
+      <div class="title">Reagan Frystak</div>
+      <div class="designer">Graphic & UX/UI Design</div>
+      <div class="homesubtitle">...</div>
 
-</template>
+      <router-link :to="{ name: 'work' }" class="button-link">
+        <button class="worksbutton">See My Work</button>
+      </router-link>
+    </div>
+
+    <section class="home-gallery">
+      <LightboxGallery :images="homeImages" />
+    </section>
+  </template>
 
 <style scoped>
-
 .title {
   display: inline-flex;
   color: #FEDEBB;
@@ -18,8 +31,9 @@
   border-radius: 10px;
   flex-direction: column;
   justify-content: left;
+  text-align: center;
+  padding: 0 20px 0 20px;
   font-size: 60px;
-  padding: 10px 60px 0 10px;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 30px;
@@ -28,26 +42,26 @@
 
 .designer {
   display: flex;
-  flex-direction: column;
   justify-content: left;
+  align-items: left;
+  margin: auto 20px auto;
+  width: fit-content;
   background-color: #C12026;
   font-family: "Lato Black";
   color: #FEDEBB;
   font-size: 20px;
-  margin-left: 20px;
-  padding: 10px 30px 10px 10px;
+  padding: 10px 30px;
   border-radius: 10px;
 }
 
 div.homesubtitle {
-  display: flex;
-  color: white;
-  font-family: Lato;
-  flex-direction: row;
-  justify-content: left;
-  font-size: 16px;
-  margin: 30px 60px 0 20px;
-  line-height: 2;
+    display: block;
+    max-width: 600px;
+    margin: 30px 60px 0 20px;
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 2;
 }
 
 .worksbutton {
@@ -55,7 +69,6 @@ div.homesubtitle {
   padding: 30px 70px;
   background-color: #C12026;
   color: #FEDEBB;
-  border: 1px solid black;
   border-radius: 5px;
   font-family: Lato;
   font-size: 24px;
@@ -69,24 +82,56 @@ div.homesubtitle {
   }
 }
 
+.button-link {
+  text-decoration: none;
+}
+
+.home-gallery {
+  padding: 40px 20px;
+}
 
 @media (max-width: 600px) {
 
-  .title {
-    display: inline-flex;
-    color: #FEDEBB;
-    background-color: #C12026;
-    border-radius: 10px;
+  .hero {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 36px;
+  }
+
+  .title {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 20px auto 15px auto;
+    max-width: min(70%, 500px);
+    padding: 10px 30px;
+    background-color: #C12026;
+    color: #FEDEBB;
+    border-radius: 10px;
+    font-family: Boldonse;
     font-size: 60px;
     text-align: center;
-    padding: 10px 30px 10px;
-    font-family: Boldonse;
+  }
+
+  .designer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: #C12026;
+    font-family: "Lato Black";
+    color: #FEDEBB;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px auto 10px;
+    border-radius: 10px;
   }
 
   div.homesubtitle {
-    display: flex;
+    display: inline-flex;
     color: white;
     font-family: Lato;
     flex-direction: row;
@@ -94,6 +139,7 @@ div.homesubtitle {
     text-align: center;
     font-size: 16px;
     line-height: 2;
+    margin: 40px auto 20px auto;
   }
 
   .worksbutton {
@@ -102,13 +148,13 @@ div.homesubtitle {
     padding: 30px 70px;
     background-color: #C12026;
     color: #FEDEBB;
-    border: 1px solid black;
     border-radius: 5px;
     font-family: Lato;
     font-size: 24px;
     cursor: pointer;
     text-align: center;
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
+
 
     &:hover {
       background-color: #FEDEBB;

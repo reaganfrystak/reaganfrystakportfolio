@@ -12,7 +12,7 @@ import NavBar from '@/components/navBar/NavBar.vue'
       <router-view/>
     </section>
 
-    <footer>Made by Reagan Frystak 2025</footer>
+    <footer>© Reagan Frystak 2025</footer>
   </section>
 </template>
 
@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     gap: 10px;
     > * {
-      border: 1px solid yellow;
+
     }
 
     content {
@@ -42,10 +42,12 @@ body {
   }
 
   footer {
-    margin-top: 10px;
+    margin: 40px auto 10px auto;
     text-align: center;
     padding: 10px;
     color: #FEDEBB;
     font-family: Lato;
+    font-size: 16px;
+    background-color: #121212;
   }
 </style>

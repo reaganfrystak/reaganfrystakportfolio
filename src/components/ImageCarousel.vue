@@ -93,10 +93,11 @@ onUnmounted(() => {
 .carousel {
   position: relative;
   width: 100%;
-  height: 100%;
+  min-height: 400px;
+  height: 500px;
   overflow: hidden;
   border-radius: 12px;
-  background: rgba(193, 32, 38, 0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .carousel-inner {
@@ -141,7 +142,7 @@ onUnmounted(() => {
 }
 
 .carousel-btn:hover {
-  background: rgba(193, 32, 38, 0.9);
+  background: #c12026;
 }
 
 .carousel-btn.prev {
@@ -181,6 +182,11 @@ onUnmounted(() => {
 }
 
 @media (max-width: 600px) {
+  .carousel {
+    height: 300px;
+    min-height: 300px;
+  }
+
   .carousel-btn {
     font-size: 2rem;
     padding: 8px 12px;

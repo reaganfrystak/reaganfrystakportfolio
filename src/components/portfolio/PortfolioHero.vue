@@ -21,7 +21,7 @@ const props = defineProps({
 .hero {
   border: 1px solid black;
   border-radius: 15px;
-  min-height: 250px;
+  min-height: 300px;
   min-width: 300px;
   max-width: 80%;
   background-size: cover;
@@ -34,7 +34,7 @@ const props = defineProps({
     color: white;
     padding: 16px;
     text-transform: uppercase;
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 15px;
     font-family: Lato;
   }

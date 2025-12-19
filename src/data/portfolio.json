@@ -17,9 +17,10 @@
     "medium": "Adobe Illustrator, Photoshop, and InDesign",
     "type": "Branding & Branding Guidelines",
     "thumbnail": "item2.png",
-    "description": "Brand guidelines final project",
-    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
-    "classOrganization": "GDES ___ - Identity & Symbols"
+    "description": "Coast 2 Curb is a brand guideline project I worked on in the class Identity & Symbols. Coast 2 Curb is a movement that targets girls,  women, and queer folk  who have a passion for skateboarding and are looking for a community within it. With skateboarding being a male-dominated sport, providing a community with a bold and playful identity attached to it can help unify others for the sake of skating. These are some assets, mockups, and pages from the brand guideline book I made!\n",
+
+    "highResImage":["", "axegame.jpg"],
+    "classOrganization": "GDES 3352 - Identity & Symbols"
   },
   {
     "id": 3,

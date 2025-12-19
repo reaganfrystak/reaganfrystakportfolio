@@ -1,8 +1,9 @@
 <script setup>
 import ImageCarousel from '@/components/ImageCarousel.vue'
+import LightboxGallery from '@/components/LightboxGallery.vue'
 
-import home1 from '@/assets/item5.png'
-import home2 from '@/assets/item4.png'
+import home1 from '@/assets/item1.png'
+import home2 from '@/assets/item2.png'
 
 const homeImages = [home1, home2]
 </script>
@@ -13,17 +14,26 @@ const homeImages = [home1, home2]
       <div class="hero-content">
         <div class="title">Reagan Frystak</div>
         <div class="designer">Graphic & UX/UI Design</div>
-        <div class="homesubtitle">Welcome to my portfolio! My design work is primarily focused on branding and ux/ui design. I’ve had the wonderful opportunity to clients across the Twin Cities that I’ve worked with, and I’ve been able to see how my work is displayed in the real and digital world! To check out some of the work I’ve done, click the button below! </div>
+        <div class="homesubtitle">
+          Welcome to my portfolio! My design work is primarily focused on branding and UX/UI design.
+          I’ve had the wonderful opportunity to clients across the Twin Cities that I’ve worked
+          with, and I’ve been able to see how my work is displayed in the real and digital world! To
+          check out some of the work I’ve done, click the button below!
+        </div>
 
         <router-link :to="{ name: 'work' }" class="button-link">
           <button class="worksbutton">See My Work</button>
         </router-link>
       </div>
 
-      <div class="carousel-container">
+      <div class="carousel-container desktop-only">
         <ImageCarousel :images="homeImages" :autoplay="true" :interval="4000" />
       </div>
     </div>
+
+    <section class="mobile-gallery mobile-only">
+      <LightboxGallery :images="homeImages" />
+    </section>
   </div>
 </template>
 
@@ -53,10 +63,24 @@ const homeImages = [home1, home2]
   height: 500px;
 }
 
+.mobile-gallery {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
 .title {
   display: inline-flex;
-  color: #FEDEBB;
-  background-color: #C12026;
+  color: #fedebb;
+  background-color: #c12026;
   border-radius: 10px;
   flex-direction: column;
   justify-content: left;
@@ -72,9 +96,9 @@ const homeImages = [home1, home2]
   justify-content: left;
   align-items: left;
   width: fit-content;
-  background-color: #C12026;
-  font-family: "Lato Black";
-  color: #FEDEBB;
+  background-color: #c12026;
+  font-family: 'Lato Black';
+  color: #fedebb;
   font-size: 20px;
   padding: 10px 30px;
   border-radius: 10px;
@@ -94,8 +118,8 @@ div.homesubtitle {
 .worksbutton {
   display: inline-block;
   padding: 30px 70px;
-  background-color: #C12026;
-  color: #FEDEBB;
+  background-color: #c12026;
+  color: #fedebb;
   border-radius: 5px;
   font-family: Lato;
   font-size: 24px;
@@ -106,8 +130,8 @@ div.homesubtitle {
 }
 
 .worksbutton:hover {
-  background-color: #FEDEBB;
-  color: #C12026;
+  background-color: #fedebb;
+  color: #c12026;
 }
 
 .button-link {
@@ -124,19 +148,18 @@ div.homesubtitle {
     max-width: 100%;
   }
 
-  .title {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+  .title,
   .designer {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .carousel-container {
-    width: 500px;
-    height: 500px;
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
   }
 
   .worksbutton {
@@ -155,13 +178,17 @@ div.homesubtitle {
     font-size: 18px;
   }
 
-  .carousel-container {
-    height: 300px;
+  .homesubtitle {
+    font-size: 18px;
   }
 
   .worksbutton {
     padding: 20px 50px;
     font-size: 20px;
+  }
+
+  .mobile-gallery {
+    padding: 20px 10px;
   }
 }
 </style>

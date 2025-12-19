@@ -33,27 +33,30 @@ const itemData = portfolioData.filter(
 
   h1 {
     font-family: Boldonse;
-    font-size: 2.75rem;
+    font-size: 3rem;
     color: white;
+    margin: 30px 20px 10px 30px;
   }
 
   h2 {
     font-family: Lato;
-    font-size: 2 rem;
+    font-size: 24px;
     color: white;
+    margin: 30px 20px 10px 30px;
   }
 
   h3 {
     font-family: Lato;
     font-size: 1 rem;
     color: white;
+    margin: 30px 20px 10px 30px;
   }
 
   p {
     font-family: Lato;
     font-size: 16px;
     color: #FEDEBB;
-    margin-bottom: 50px;
+    margin: auto 30px 10px 30px;
   }
 
   img {

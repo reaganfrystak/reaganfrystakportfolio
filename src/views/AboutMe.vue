@@ -31,7 +31,7 @@
   font-family: Boldonse;
   font-size: 3rem;
   color: white;
-  margin: 30px 0;
+  margin: 30px 20px 10px 30px;
 }
 
 

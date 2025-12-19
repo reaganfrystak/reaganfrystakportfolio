@@ -12,11 +12,10 @@ const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[2], por
 
 <style scoped>
 .choose {
-  color: white;
-  font-size: 2.5rem;
-  margin: 30px auto;
-  text-align: left;
   font-family: Boldonse;
+  font-size: 3rem;
+  color: white;
+  margin: 30px 20px 50px 30px;
 }
 
 div.all-items {
@@ -35,7 +34,7 @@ div.item {
 
 @media (max-width: 600px) {
   div.choose {
-    color: #FEDEBB;
+    color: white;
     text-align: center;
     font-size: 2.5rem;
     margin-top: 30px;

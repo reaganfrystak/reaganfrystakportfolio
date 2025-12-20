@@ -78,6 +78,7 @@ console.log('Item Data:', itemData)
   max-width: 600px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -89,7 +90,7 @@ console.log('Item Data:', itemData)
 
 .thumbnail-gallery {
   width: 100%;
-  margin: -10px 0 auto 80px;
+  margin: -10px 0 auto 100px;
 }
 
 h1 {

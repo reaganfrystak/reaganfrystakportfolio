@@ -2,10 +2,11 @@
 import ImageCarousel from '@/components/ImageCarousel.vue'
 import LightboxGallery from '@/components/LightboxGallery.vue'
 
-import home1 from '@/assets/item1.png'
-import home2 from '@/assets/item2.png'
+import home1 from '@/assets/leave.png'
+import home2 from '@/assets/block.png'
+import home3 from '@/assets/hoops.png'
 
-const homeImages = [home1, home2]
+const homeImages = [home1, home2, home3]
 </script>
 
 <template>

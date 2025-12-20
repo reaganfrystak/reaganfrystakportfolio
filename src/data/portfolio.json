@@ -7,7 +7,7 @@
     "type": "Branding & Social Media",
     "thumbnail": "item1.png",
     "description": "I have been doing graphic design for the University of Minnesota’s Career Services Administration since fall semester of my freshman year. I have primarily designed a bi-weekly newsletter titled ‘Career Backpack’ which consists of career advice and resources along with a graphic. I have also created social media content for Career Services’ Handshake Feed page as well. Working with career services has been pivotal when it comes to familiarizing me with design programs like Illustrator and Canva. Over the years I’ve been able to experiment and improve my style and quality of work!",
-    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
+    "highResImage":["plane.png", "circles.png", "coin.png", "blog.png", "summer.png", "indcesision.png"],
     "classOrganization": "UMN Career Services Administration"
   },
   {
@@ -18,7 +18,7 @@
     "type": "Branding & Branding Guidelines",
     "thumbnail": "item2.png",
     "description": "Coast 2 Curb is a brand guideline project I worked on in the class Identity & Symbols. The project was to create branding for an assigned topic and purpose, and my topics were to create branding for a skateboarding movement. Coast 2 Curb is a movement that targets girls,  women, and queer folk  who have a passion for skateboarding and are looking for a community within it. With skateboarding being a male-dominated sport, providing a community with a bold and playful identity attached to it can help unify others for the sake of skating. These are some assets, mockups, and pages from the brand guideline book I made!",
-    "highResImage":["", "axegame.jpg"],
+    "highResImage":["story.png", "mission.png", "logos.png", "colors.png", "type.png", "skateboard.png"],
     "classOrganization": "GDES 3352 - Identity & Symbols"
   },
   {
@@ -29,7 +29,7 @@
     "type": "Event Marketing",
     "thumbnail": "flaghole.jpg",
     "description": "Working with KOPI Medical during the summer of 2025 was a unique opportunity to do pro-bono work with an organization within the community and being the one to moderate and hold myself accountable for getting deadlines done. I was tasked with creating marketing for a golfing  event KOPI Medical held called ‘Drive For Change’. I had created a marketing poster to advertise the event, along with a complimentary banner they can use for the event, and signs with donors’ names on it for different golf holes. Seeing my work used at a larger scale like an event was something I had yet to do, so  seeing the photos of the marketing being displayed was a really neat experience!",
-    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
+    "highResImage":["marketingposter.jpg", "marketingbanner.jpg", "RJM.png","cecilia.png", "Hole.jpg", "change.jpg"],
     "classOrganization": "Backpack Communications"
   },
   {
@@ -40,7 +40,7 @@
     "type": "Branding & Social Media",
     "thumbnail": "item4.png",
     "description": "I became a graphic designer for the University of Minnesota’s Hubbard School of Journalism at the beginning of 2025. Since then, I have been creating social media content that highlights the school’s events, faculty, and achievements.  Editing photography in Photoshop and Lightroom has been the primary focus for social media along with periodical stylized graphics with the Hubbard School of Journalism Branding. Hubbard has been great for working with the University of Minnesota branding from a different perspective from Career Services.",
-    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
+    "highResImage":["rebekah.png", "winterbreak.png", "NY.png", "levon.png", "drafts.png", "colin.png"],
     "classOrganization": "Backpack Communications"
   },
   {
@@ -51,7 +51,7 @@
     "type": "UX/UI Design",
     "thumbnail": "EZThumb.png",
     "description": "CurrenEZ is a currency converting wallet app designed for my User Experience in Design class. The project was to create an app that is accessible through a wearable device, all designed  in Figma. CurrenEZ can be used on an Apple Watch and allows you to track currency rates, convert from currency to currency,  and pay electronically with different currency wallets. This project was uniquely interesting to me due to having to design at a scale I wasn’t familiar with. It teaches you a lot about how to minimize business on a small screen but still make it functional to do the task effectively.",
-    "highResImage":["EZMockup1.png", "EZMockup2.png", "EZMockup3.png", "CurrenEZLogoSquare.png"],
+    "highResImage":["EZMockup1.png", "EZMockup2.png", "EZMockup3.png", "CurrenEZLogoSquare.png", "homescreen.png", "frame.png"],
     "classOrganization": "DES 3131 - User Experience in Design"
   },
   {
@@ -63,7 +63,7 @@
     "description": "Brain Break is a Cannabis product line I created as a final project for my Packaging & Display class. The project required us to create a brand, make packaging for a selected product to represent the brand, and assemble a real-life point-of-purchase display to advertise your product. Brain Break is targeted to an older Gen-Z audience looking for a way to destress without the hangover the next day. I created five different products for this brand: THC drink labels, edible gummy candy bag, flower/bud bags, a pre-roll container, and a syrup label. Sporting a crafty, hand-made style, it’s perfect for sharing with your friends and getting back to work!",
     "classOrganization": "GDES 3352: Packaging and Display",
     "thumbnail": "bbthumb.png",
-    "highResImage":["path/to/highResImage/1", "path/to/highResImage/2"],
+    "highResImage":["greendrink.png", "pink.png", "roll.png", "flower.png", "back.png", "stand.jpg"],
     "URL": "url to videos"
   }
 ]

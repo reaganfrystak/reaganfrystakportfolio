@@ -82,7 +82,8 @@ console.log('Item Data:', itemData)
 }
 
 .carousel-container {
-  width: 100%;
+  width: 540px;
+  height: 540px;
   margin: auto 0 auto 80px;
 }
 

@@ -4,9 +4,8 @@ import LightboxGallery from '@/components/LightboxGallery.vue'
 
 import me1 from '@/assets/printingpress.jpg'
 import me2 from '@/assets/axegame.jpg'
-import me3 from '@/assets/desheadshot.jpg'
 
-const homeImages = [me1,me2,me3]
+const homeImages = [me1,me2,]
 </script>
 
 <template>

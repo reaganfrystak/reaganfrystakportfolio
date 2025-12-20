@@ -69,8 +69,7 @@ console.log('Item Data:', itemData)
 
 .text-content {
   flex: 1;
-  min-width: 0;
-  max-width: 625px;
+  max-width: 610px;
 }
 
 .media-content {
@@ -128,12 +127,10 @@ p {
   margin: 20px 0;
 }
 
-/* Hide mobile layout on desktop */
 .mobile-layout {
   display: none;
 }
 
-/* Mobile Layout */
 @media (max-width: 900px) {
   .desktop-layout {
     display: none;

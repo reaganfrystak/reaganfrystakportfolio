@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="hero" :style="`background-image: url(../src/assets/${props.thumbnail})`">
+  <div class="hero" :style="`background-image: url(${props.thumbnail})`">
     <div class="opaque-footer" v-text="props.title" />
   </div>
 </template>
@@ -25,6 +25,8 @@ const props = defineProps({
   min-width: 300px;
   max-width: 80%;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

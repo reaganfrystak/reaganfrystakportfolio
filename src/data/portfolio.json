@@ -75,7 +75,7 @@
     "description": "Genero Coffee Syrup was a label design series project I created in my Packaging & Display class. The task was to create three labels for three differently packaged items that are a part of the same series. I chose to focus on coffee syrup and the different ways it's packaged, and I ultimately chose to do a standard syrup bottle, industrial sized gallon jug, and single-use sampler bottles. The goal was to capture a warm, nostalgic feel to the branding, mimicking the 'global village coffeehouse' style. Try a taste of home today!",
     "classOrganization": "GDES 3352: Packaging and Display",
     "thumbnail": "/reaganfrystakportfolio/coffee.png",
-    "highResImage":["generologo.png", "pink.png", "roll.png", "flower.png", "back.png", "stand.jpg"],
+    "highResImage":["generologo.png", "standardfront.png", "standardback.png", "standardfrontmock.png", "standardbackmock.png", "industrialfront.png", "industrialback.png", "industrialfrontmock.png", "industrialbackmock.png", "shootermock.png", "boxfront.png", "boxside.png", "boxback.png"],
     "URL": "url to videos"
   }
 ]

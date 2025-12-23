@@ -4,8 +4,10 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig(({ command }) => ({
   plugins: [vue()],
-  // Use base path only for production builds, not dev server
   base: command === 'build' ? '/reaganfrystakportfolio/' : '/',
+  build: {
+    outDir: 'docs'  // Build to docs folder instead of dist
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

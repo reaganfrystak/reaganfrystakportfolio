@@ -65,5 +65,17 @@
     "thumbnail": "/reaganfrystakportfolio/bbthumb.png",
     "highResImage":["greendrink.png", "pink.png", "roll.png", "flower.png", "back.png", "stand.jpg"],
     "URL": "url to videos"
+  },
+  {
+    "id": 7,
+    "title": "Brain Break THC Branding",
+    "yearsCreated": 2025,
+    "medium": "Adobe Illustrator & Photoshop",
+    "type": "Branding & Packaging Design",
+    "description": "Brain Break is a Cannabis product line I created as a final project for my Packaging & Display class. The project required us to create a brand, make packaging for a selected product to represent the brand, and assemble a real-life point-of-purchase display to advertise your product. Brain Break is targeted to an older Gen-Z audience looking for a way to destress without the hangover the next day. I created five different products for this brand: THC drink labels, edible gummy candy bag, flower/bud bags, a pre-roll container, and a syrup label. Sporting a crafty, hand-made style, it’s perfect for sharing with your friends and getting back to work!",
+    "classOrganization": "GDES 3352: Packaging and Display",
+    "thumbnail": "/reaganfrystakportfolio/coffee.png",
+    "highResImage":["greendrink.png", "pink.png", "roll.png", "flower.png", "back.png", "stand.jpg"],
+    "URL": "url to videos"
   }
 ]

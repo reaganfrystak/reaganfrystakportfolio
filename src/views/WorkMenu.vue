@@ -2,7 +2,7 @@
 import portfolioData from '@/data/portfolio.json'
 import HeroContainer from '@/components/portfolio/HeroContainer.vue'
 
-const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[2], portfolioData[3], portfolioData[4], portfolioData[5]]
+const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[2], portfolioData[3], portfolioData[4], portfolioData[5],portfolioData[6]]
 </script>
 
 <template>
